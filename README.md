@@ -1,5 +1,6 @@
 # Basic Okta setup for multiple accounts
 
+See http://saml-doc.okta.com/SAML_Docs/How-to-Configure-SAML-2.0-for-Amazon-Web-Service#scenarioB for more information, documentation, etc.  
 
 1. First, setup Okta application and download the metdatafile to ../saml-metadata.xml
 2.  Setup in ~/.aws/credentials
