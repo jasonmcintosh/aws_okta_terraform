@@ -45,3 +45,11 @@ module "alpha_account" {
   source = "modules/okta_access"
   profile = "alpha_account"
 }
+
+
+output "access_key" {
+  value = "${aws_iam_access_key.okta.id}"
+}
+output "secret_key" {
+  value = "${aws_iam_access_key.okta.secret}"
+}
